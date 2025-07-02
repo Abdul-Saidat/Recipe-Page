@@ -37,7 +37,7 @@ body {
   margin-top: 35px;
   padding-inline: 20px;
   border-radius: 15px;
-  background-color: hsl(330, 8%, 95%);
+  background-color: hsl(0, 54%, 97%);
 }
 
 .prep li {
@@ -102,7 +102,7 @@ body {
 .nutrition {
   width: 350px;
   height: 350px;
-  margin: 0 auto;
+  margin-left: 10px;
   margin-top: 45px;
 }
 
