@@ -37,7 +37,7 @@ body {
   margin-top: 35px;
   padding-inline: 20px;
   border-radius: 15px;
-  background-color: hsl(0, 25%, 97%);
+  background-color: hsl(330, 8%, 95%);
 }
 
 .prep li {
@@ -52,7 +52,7 @@ body {
 }
 
 .prep h1 {
-  color: hsl(332, 51%, 32%);
+  color: hsl(332, 51%, 43%);
   font-family: "static-6";
   padding-top: 20px;
 }
