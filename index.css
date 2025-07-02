@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "static-3";
+  src: url(./assets/fonts/outfit/static//Outfit-Bold.ttf);
+}
+
+@font-face {
+  font-family: "static-6";
+  src: url(./assets/fonts/outfit/static/Outfit-Medium.ttf);
+}
+
+body {
+  font-family: "static-6";
+}
+.all-content img {
+  width: 390px;
+}
+
+.about {
+  width: 315px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  font-size: 36px;
+  color: hsl(24, 5%, 18%);
+}
+
+.about p {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.prep {
+  width: 300px;
+  height: 180px;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding-inline: 20px;
+  border-radius: 15px;
+  background-color: hsl(0, 25%, 97%);
+}
+
+.prep li {
+  padding-block: 5px;
+}
+
+.prep li,
+.ingredients li,
+.instructions li {
+  padding-left: 20px;
+  color: hsl(30, 10%, 34%);
+}
+
+.prep h1 {
+  color: hsl(332, 51%, 32%);
+  font-family: "static-6";
+  padding-top: 20px;
+}
+
+.prep li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.prep span,
+.instructions span {
+  color: hsl(30, 10%, 34%);
+  font-size: 18px;
+  font-family: "static-3";
+}
+
+.ingredients {
+  width: 300px;
+  margin-left: 25px;
+  border-bottom: 1px solid hsl(30, 25%, 87%);
+}
+
+.ingredients h1,
+.instructions h1,
+.nutrition h1 {
+  color: hsl(14, 45%, 36%);
+  font-size: 30px;
+}
+
+.ingredients li::marker,
+.instructions li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients li,
+.instructions li {
+  padding-block: 5px;
+}
+
+.instructions {
+  width: 340px;
+  height: 630px;
+  margin-top: 45px;
+  margin-left: 18px;
+  border-bottom: 1px solid hsl(30, 25%, 87%);
+}
+
+.nutrition {
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.nutrition p,
+.nutrition td {
+  font-size: 18px;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition table {
+  border-collapse: collapse;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.nutrition td {
+  padding-block: 15px;
+}
+.nutrition tr {
+  border-bottom: 1px solid hsl(30, 25%, 87%);
+}
+
+.nutrition span {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: hsl(332, 56%, 95%);
+  }
+  .all-content {
+    width: 700px;
+    background-color: white;
+    margin: 0 auto;
+    margin-block: 100px;
+    border-radius: 20px;
+  }
+
+  .all-content img {
+    width: 640px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  .ingredients,
+  .instructions {
+    padding: 0px;
+  }
+
+  .prep {
+    margin: 0px;
+  }
+
+  .about {
+    margin-left: 30px;
+  }
+
+  .about,
+  .instructions,
+  .ingredients,
+  .nutrition {
+    width: 658px;
+  }
+
+  .prep,
+  .nutrition table {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .ingredients {
+    margin: 0 auto;
+  }
+
+  .instructions {
+    height: 400px;
+    margin: 0 auto;
+  }
+}
